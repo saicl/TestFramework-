@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ProductsFeatureTest1" time="2.533" tests="16" errors="16" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ProductsFeatureTest1" time="16.395" tests="8" errors="1" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Taras_Sokil\.m2\repository\webdriver\chromedriver\win32\87.0.4280.88\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
     <property name="java.class.path" value="C:\MyProjects\TestAutomationFramework\target\test-classes;C:\MyProjects\TestAutomationFramework\target\classes;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Taras_Sokil\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Taras_Sokil\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Taras_Sokil\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Taras_Sokil\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Taras_Sokil\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Taras_Sokil\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Taras_Sokil\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Taras_Sokil\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Taras_Sokil\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Taras_Sokil\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Taras_Sokil\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Taras_Sokil\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\Taras_Sokil\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Taras_Sokil\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Taras_Sokil\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Taras_Sokil\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\Taras_Sokil\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\Taras_Sokil\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Taras_Sokil\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Taras_Sokil\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Taras_Sokil\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Taras_Sokil\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\Taras_Sokil\.m2\repository\com\saucelabs\sauce_bindings\1.0.1\sauce_bindings-1.0.1.jar;C:\Users\Taras_Sokil\.m2\repository\org\projectlombok\lombok\1.18.10\lombok-1.18.10.jar;"/>
@@ -17,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin"/>
-    <property name="sun.java.command" value="C:\Users\Taras_Sokil\AppData\Local\Temp\surefire18302207921390403772\surefirebooter3254202536417905639.jar C:\Users\Taras_Sokil\AppData\Local\Temp\surefire18302207921390403772 2021-01-05T13-29-51_265-jvmRun1 surefire17204487131523340083tmp surefire_06855625467346493076tmp"/>
+    <property name="sun.java.command" value="C:\Users\Taras_Sokil\AppData\Local\Temp\surefire17137692281099406276\surefirebooter16953659608436165843.jar C:\Users\Taras_Sokil\AppData\Local\Temp\surefire17137692281099406276 2021-01-09T16-29-20_925-jvmRun1 surefire12174199616810977753tmp surefire_01422542905632222774tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="ProductsFeatureTest1"/>
     <property name="surefire.test.class.path" value="C:\MyProjects\TestAutomationFramework\target\test-classes;C:\MyProjects\TestAutomationFramework\target\classes;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Taras_Sokil\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Taras_Sokil\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Taras_Sokil\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Taras_Sokil\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Taras_Sokil\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Taras_Sokil\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Taras_Sokil\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Taras_Sokil\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Taras_Sokil\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Taras_Sokil\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Taras_Sokil\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Taras_Sokil\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\Taras_Sokil\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Taras_Sokil\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Taras_Sokil\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Taras_Sokil\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\Taras_Sokil\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\Taras_Sokil\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Taras_Sokil\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Taras_Sokil\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Taras_Sokil\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Taras_Sokil\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Taras_Sokil\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\Taras_Sokil\.m2\repository\com\saucelabs\sauce_bindings\1.0.1\sauce_bindings-1.0.1.jar;C:\Users\Taras_Sokil\.m2\repository\org\projectlombok\lombok\1.18.10\lombok-1.18.10.jar;"/>
@@ -34,7 +35,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Taras_Sokil\AppData\Local\Temp\surefire18302207921390403772\surefirebooter3254202536417905639.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Taras_Sokil\AppData\Local\Temp\surefire17137692281099406276\surefirebooter16953659608436165843.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.9+7-LTS"/>
@@ -61,132 +62,30 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Login1" classname="ProductsFeatureTest1" time="2.531">
+  <testcase name="Login3" classname="ProductsFeatureTest1" time="16.395"/>
+  <testcase name="name" classname="ProductsFeatureTest1" time="16.341"/>
+  <testcase name="dd" classname="ProductsFeatureTest1" time="16.354">
     <error message="failed serving request POST /wd/hub/session: Unauthorized&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EPUALVIW1158&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: driver.version: RemoteWebDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
 failed serving request POST /wd/hub/session: Unauthorized
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'EPUALVIW1158', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
 Driver info: driver.version: RemoteWebDriver
 remote stacktrace: 
+	at ProductsFeatureTest1.dd(ProductsFeatureTest1.java:157)
 ]]></error>
-    <system-err><![CDATA[Jan 05, 2021 1:29:55 PM org.openqa.selenium.remote.ErrorCodes toStatus
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 16789
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 09, 2021 4:29:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 09, 2021 4:29:34 PM org.openqa.selenium.remote.ErrorCodes toStatus
 INFO: HTTP Status: '401' -> incorrect JSON status mapping for 'unknown error' (500 expected)
 ]]></system-err>
   </testcase>
-  <testcase name="Login1" classname="ProductsFeatureTest1" time="0">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
-]]></error>
-  </testcase>
-  <testcase name="Login2" classname="ProductsFeatureTest1" time="2.529">
-    <error message="failed serving request POST /wd/hub/session: Unauthorized&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EPUALVIW1158&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: driver.version: RemoteWebDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-failed serving request POST /wd/hub/session: Unauthorized
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPUALVIW1158', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: driver.version: RemoteWebDriver
-remote stacktrace: 
-]]></error>
-    <system-err><![CDATA[Jan 05, 2021 1:29:55 PM org.openqa.selenium.remote.ErrorCodes toStatus
-INFO: HTTP Status: '401' -> incorrect JSON status mapping for 'unknown error' (500 expected)
-]]></system-err>
-  </testcase>
-  <testcase name="Login2" classname="ProductsFeatureTest1" time="0">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
-]]></error>
-  </testcase>
-  <testcase name="Login4" classname="ProductsFeatureTest1" time="2.529">
-    <error message="failed serving request POST /wd/hub/session: Unauthorized&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EPUALVIW1158&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: driver.version: RemoteWebDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-failed serving request POST /wd/hub/session: Unauthorized
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPUALVIW1158', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: driver.version: RemoteWebDriver
-remote stacktrace: 
-]]></error>
-    <system-err><![CDATA[Jan 05, 2021 1:29:55 PM org.openqa.selenium.remote.ErrorCodes toStatus
-INFO: HTTP Status: '401' -> incorrect JSON status mapping for 'unknown error' (500 expected)
-]]></system-err>
-  </testcase>
-  <testcase name="Login4" classname="ProductsFeatureTest1" time="0">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
-]]></error>
-  </testcase>
-  <testcase name="Login3" classname="ProductsFeatureTest1" time="2.529">
-    <error message="failed serving request POST /wd/hub/session: Unauthorized&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EPUALVIW1158&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: driver.version: RemoteWebDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-failed serving request POST /wd/hub/session: Unauthorized
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPUALVIW1158', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: driver.version: RemoteWebDriver
-remote stacktrace: 
-]]></error>
-    <system-err><![CDATA[Jan 05, 2021 1:29:55 PM org.openqa.selenium.remote.ErrorCodes toStatus
-INFO: HTTP Status: '401' -> incorrect JSON status mapping for 'unknown error' (500 expected)
-]]></system-err>
-  </testcase>
-  <testcase name="Login3" classname="ProductsFeatureTest1" time="0">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
-]]></error>
-  </testcase>
-  <testcase name="Login5" classname="ProductsFeatureTest1" time="2.528">
-    <error message="failed serving request POST /wd/hub/session: Unauthorized&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EPUALVIW1158&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: driver.version: RemoteWebDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-failed serving request POST /wd/hub/session: Unauthorized
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPUALVIW1158', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: driver.version: RemoteWebDriver
-remote stacktrace: 
-]]></error>
-    <system-err><![CDATA[Jan 05, 2021 1:29:55 PM org.openqa.selenium.remote.ErrorCodes toStatus
-INFO: HTTP Status: '401' -> incorrect JSON status mapping for 'unknown error' (500 expected)
-]]></system-err>
-  </testcase>
-  <testcase name="Login5" classname="ProductsFeatureTest1" time="0">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
-]]></error>
-  </testcase>
-  <testcase name="name" classname="ProductsFeatureTest1" time="2.528">
-    <error message="failed serving request POST /wd/hub/session: Unauthorized&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EPUALVIW1158&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: driver.version: RemoteWebDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-failed serving request POST /wd/hub/session: Unauthorized
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPUALVIW1158', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: driver.version: RemoteWebDriver
-remote stacktrace: 
-]]></error>
-    <system-err><![CDATA[Jan 05, 2021 1:29:55 PM org.openqa.selenium.remote.ErrorCodes toStatus
-INFO: HTTP Status: '401' -> incorrect JSON status mapping for 'unknown error' (500 expected)
-]]></system-err>
-  </testcase>
-  <testcase name="name" classname="ProductsFeatureTest1" time="0">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
-]]></error>
-  </testcase>
-  <testcase name="dd" classname="ProductsFeatureTest1" time="2.53">
-    <error message="failed serving request POST /wd/hub/session: Unauthorized&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EPUALVIW1158&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: driver.version: RemoteWebDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-failed serving request POST /wd/hub/session: Unauthorized
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPUALVIW1158', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: driver.version: RemoteWebDriver
-remote stacktrace: 
-]]></error>
-    <system-err><![CDATA[Jan 05, 2021 1:29:55 PM org.openqa.selenium.remote.ErrorCodes toStatus
-INFO: HTTP Status: '401' -> incorrect JSON status mapping for 'unknown error' (500 expected)
-]]></system-err>
-  </testcase>
-  <testcase name="dd" classname="ProductsFeatureTest1" time="0">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
-]]></error>
-  </testcase>
-  <testcase name="Login" classname="ProductsFeatureTest1" time="2.529">
-    <error message="failed serving request POST /wd/hub/session: Unauthorized&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EPUALVIW1158&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: driver.version: RemoteWebDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-failed serving request POST /wd/hub/session: Unauthorized
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'EPUALVIW1158', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: driver.version: RemoteWebDriver
-remote stacktrace: 
-]]></error>
-    <system-err><![CDATA[Jan 05, 2021 1:29:55 PM org.openqa.selenium.remote.ErrorCodes toStatus
-INFO: HTTP Status: '401' -> incorrect JSON status mapping for 'unknown error' (500 expected)
-]]></system-err>
-  </testcase>
-  <testcase name="Login" classname="ProductsFeatureTest1" time="0">
-    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
-]]></error>
-  </testcase>
+  <testcase name="Login1" classname="ProductsFeatureTest1" time="16.338"/>
+  <testcase name="Login" classname="ProductsFeatureTest1" time="16.323"/>
+  <testcase name="Login2" classname="ProductsFeatureTest1" time="16.392"/>
+  <testcase name="Login5" classname="ProductsFeatureTest1" time="16.392"/>
+  <testcase name="Login4" classname="ProductsFeatureTest1" time="16.354"/>
 </testsuite>

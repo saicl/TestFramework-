@@ -11,7 +11,7 @@
         <pluginManagement>
 
             <plugins>
-                <!-- start  test in parallel-->
+<!--                 start  test in parallel-->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
@@ -32,7 +32,7 @@
                         <target>11</target>
                     </configuration>
                 </plugin>
-                <!-- finish  test in parallel-->
+<!--                 finish  test in parallel-->
 
 
                 <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->

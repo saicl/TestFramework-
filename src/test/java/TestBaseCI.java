@@ -4,7 +4,7 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 
 
-public class TestBase {
+public class TestBaseCI {
     WebDriver driver;
 
     @Before
